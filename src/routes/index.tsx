@@ -331,6 +331,53 @@ function CharacterArtBible() {
               </p>
             </div>
 
+            <section aria-labelledby="reference-update-title" className="mb-12 border-y border-line py-5">
+              <div className="flex flex-wrap items-start justify-between gap-4">
+                <div className="max-w-3xl">
+                  <p className="text-[10px] font-semibold uppercase text-coral">Current pack review</p>
+                  <h2 id="reference-update-title" className="mt-2 font-display text-2xl font-semibold uppercase leading-tight">
+                    Reference update summary
+                  </h2>
+                  <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                    The supplied set brings visual direction, character studies, wardrobe and dialogue references together for review.
+                  </p>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="outline" className="border-line text-muted-foreground">11 source files</Badge>
+                  <Badge variant="outline" className="border-line text-muted-foreground">10 unique images</Badge>
+                </div>
+              </div>
+              <div className="mt-5 grid gap-x-8 gap-y-4 border-t border-line pt-4 sm:grid-cols-2">
+                <div>
+                  <p className="text-[10px] font-semibold uppercase text-aqua">Visual direction</p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                    Three overview boards align sunset-lit city scenes, tropical details, vivid pink and cyan accents, and dark game-interface panels.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-semibold uppercase text-neon-rose">Character studies</p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                    Paired appearance portraits are supported by a front, side and rear turnaround; character-to-roster matches remain unverified.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-semibold uppercase text-gold">Cast & wardrobe</p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                    A crowd lineup and outfit options broaden silhouette and clothing references, while a framed dialogue portrait adds an expression study.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-semibold uppercase text-coral">Production status</p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                    One portrait/outfit panel appears twice as an identical file. All artwork remains concept-only; no rigging or animation data is supplied.
+                  </p>
+                </div>
+              </div>
+              <p className="mt-4 text-[10px] leading-relaxed text-muted-foreground">
+                This summarizes the supplied pack; no earlier reference set was included for a version-to-version comparison.
+              </p>
+            </section>
+
             <section id="visual-direction" className="scroll-mt-24 border-t border-line pb-14 pt-10">
               <SectionHeading
                 number="01"
